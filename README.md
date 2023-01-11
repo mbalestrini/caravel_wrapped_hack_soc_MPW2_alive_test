@@ -1,6 +1,9 @@
 
-## **MPW2 silicon test: Wrapped Hack SoC project inside ZA mutli project**
+## **MPW2 silicon test: Wrapped Hack SoC project inside ZA multi project**
 ---
+### **Architecture overview:**
+
+![](docs/wrapped_hack_soc_design_overview.png)
 
 ### **MPRJ_IO Connections:**
 
