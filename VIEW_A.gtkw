@@ -1,0 +1,126 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Dec 23 18:53:43 2022
+[*]
+[dumpfile] "/home/videogamo/Work/ZeroToAsic_Course/caravel_user_project/verilog/gl/caravel_wrapped_hack_soc_MPW2_ALIVE_TEST/wrapped_hack_soc_test_2_tb.vcd"
+[dumpfile_mtime] "Fri Dec 23 18:38:31 2022"
+[dumpfile_size] 173400033
+[savefile] "/home/videogamo/Work/ZeroToAsic_Course/caravel_user_project/verilog/gl/caravel_wrapped_hack_soc_MPW2_ALIVE_TEST/VIEW_A.gtkw"
+[timestart] 113600000
+[size] 2560 1387
+[pos] -1 -1
+*-24.956081 238380000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] wrapped_hack_soc_test_2_tb.
+[treeopen] wrapped_hack_soc_test_2_tb.uut.
+[treeopen] wrapped_hack_soc_test_2_tb.uut.mprj.
+[sst_width] 282
+[signals_width] 417
+[sst_expanded] 1
+[sst_vpaned_height] 428
+@28
+wrapped_hack_soc_test_2_tb.clock
+@800200
+-flash
+@28
+wrapped_hack_soc_test_2_tb.flash_clk
+wrapped_hack_soc_test_2_tb.flash_csb
+wrapped_hack_soc_test_2_tb.flash_io0
+wrapped_hack_soc_test_2_tb.flash_io1
+@1000200
+-flash
+@800022
+wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+@28
++{[37]-GPIO_O[3]} (0)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[36]-GPIO_O[2]} (1)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[35]-GPIO_O[1]} (2)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[34]-GPIO_O[0]} (3)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[33]-GPIO_I[3]} (4)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[32]-GPIO_I[2]} (5)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[31]-GPIO_I[1]} (6)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[30]-GPIO_I[0]} (7)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[29]-DISPLAY_RGB} (8)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[28]-DISPLAY_HSYNC} (9)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[27]-DISPLAY_VSYNC} (10)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[26]-HACK_EXTERNAL_RESET} (11)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[25]-VRAM_SIO} (12)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[24]-VRAM_SIO} (13)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[23]-VRAM_SIO} (14)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[22]-VRAM_SIO} (15)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[21]-VRAM_SCK} (16)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[20]-VRAM_CS_N} (17)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[19]ROM_SIO} (18)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[18]-ROM_SIO} (19)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[17]-ROM_SIO} (20)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[16]-ROM_SIO} (21)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+@29
++{[15]-ROM_SCK} (22)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+@28
++{[14]-ROM_CS_N} (23)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[13]-RAM_SIO} (24)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[12]-RAM_SIO} (25)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[11]-RAM_SIO} (26)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[10]-RAM_SIO} (27)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[9]-RAM_SCK} (28)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
++{[8]-RAM_CS_N} (29)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+(30)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+(31)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+(32)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+(33)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+(34)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+(35)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+(36)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+(37)wrapped_hack_soc_test_2_tb.mprj_io[37:0]
+@1001200
+-group_end
+@28
+wrapped_hack_soc_test_2_tb.uut.mprj.wrapped_hack_soc.\soc.hack_clk_strobe
+wrapped_hack_soc_test_2_tb.uut.mprj.wrapped_hack_soc.active
+@800200
+-la_data_in[28:0]
+@28
++{la_data_in[28]-hack_external_reset_from_la} (99)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(100)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+@c00022
+#{la_data_in[11:26]-rom_loader_data[15:0]} (116)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (115)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (114)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (113)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (112)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (111)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (110)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (109)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (108)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (107)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (106)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (105)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (104)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (103)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (102)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (101)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+@28
+(101)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(102)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(103)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(104)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(105)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(106)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(107)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(108)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(109)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(110)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(111)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(112)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(113)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(114)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(115)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(116)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+@1401200
+-group_end
+@28
++{la_data_in[10]-rom_loader_load} (117)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
++{la_data_in[9]-rom_loader_sck} (118)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+@c00022
+#{la_data_in[1:8]-keycode} (126)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (125)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (124)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (123)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (122)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (121)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (120)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0] (119)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+@28
+(119)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(120)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(121)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(122)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(123)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(124)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(125)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+(126)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+@1401200
+-group_end
+@28
++{la_data_in[0]-hack_soc_reset} (127)wrapped_hack_soc_test_2_tb.uut.mprj.la_data_in[127:0]
+@1000200
+-la_data_in[28:0]
+[pattern_trace] 1
+[pattern_trace] 0
