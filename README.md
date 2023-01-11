@@ -7,6 +7,12 @@
 
 ### **MPRJ_IO Connections:**
 
+| |  | |
+|---|---|---|
+|Hack External Reset (input)|MPRJ_IO[26]|connect to GND|
+|DISPLAY_RGB (output)|MPRJ_IO[29]|connector to Logic Analyzer or Scope|
+
+
 // Hack External Reset (input)
 MPRJ_IO[26]  ==> connect to GND
 
