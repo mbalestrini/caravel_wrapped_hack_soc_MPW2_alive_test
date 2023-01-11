@@ -37,9 +37,9 @@ struct logic_analyzer_t {
 	uint8_t rom_loader_sck;
 	uint8_t rom_loader_load;
 	uint16_t rom_loader_data;
+	uint8_t hack_external_reset;
 	// Inputs to Pico
 	uint8_t rom_loader_ack;	
-	uint8_t hack_external_reset;
 } logic_analyzer;
 
 
@@ -199,7 +199,6 @@ void main()
 	tmp_la0_data = (tmp_la0_data & ~(1<<10)) | (logic_analyzer.rom_loader_load << 10);
 	reg_la0_data = tmp_la0_data;		
 
-	
 	// for (int i = 0; i < program_size; ++i) {
 		
 	// 	logic_analyzer.rom_loader_data = hack_program[i];				
@@ -221,14 +220,12 @@ void main()
 	reg_la0_data = tmp_la0_data;		
 
 
+	// Start Hack SoC
 	logic_analyzer.hack_external_reset = 0;
 	tmp_la0_data = (tmp_la0_data & ~(1<<28)) | (logic_analyzer.hack_external_reset << 28);
 	reg_la0_data = tmp_la0_data;		
 	
 
-    // // do something with the logic analyser
-    // reg_la0_iena = 0;
-    // reg_la0_oenb = 0;
-    // reg_la0_data |= 100;
+   
 }
 
