@@ -21,7 +21,7 @@
 
 #define ARRAY_LENGTH(x) (sizeof(x) / sizeof((x)[0]))
 
-#include "caravel_test_hack_program.c"
+// #include "caravel_test_hack_program.c"
 
 /*
 	IO Test:
@@ -190,7 +190,7 @@ void main()
 	reg_la0_data = tmp_la0_data;
 
 
-	uint8_t program_size = ARRAY_LENGTH(hack_program);
+	// uint8_t program_size = ARRAY_LENGTH(hack_program);
 
 
 
