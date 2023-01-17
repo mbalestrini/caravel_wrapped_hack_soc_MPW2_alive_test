@@ -15,7 +15,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "verilog/dv/caravel/defs.h"
+#include "../defs.h"
+#include "../gpio_config/gpio_config_io.c"
+//#include "verilog/dv/caravel/defs.h"
 
 #include <stdint.h> 
 
@@ -29,6 +31,15 @@
 		- Observes counter value through the MPRJ lower 8 IO pins (in the testbench)
 */
 
+void blink_short() {
+    const int wait=1000000;
+    reg_gpio_mode1 = 1;
+    reg_gpio_mode0 = 0;
+    reg_gpio_ien = 1;
+    reg_gpio_oe = 1;
+    reg_gpio_out = 0; delay(wait); // ON
+    reg_gpio_out = 1; delay(wait); // OFF
+}
 
 struct logic_analyzer_t {
 	// Outputs from Pico
@@ -138,10 +149,10 @@ void main()
 
 	
     /* Apply configuration */
-    reg_mprj_xfer = 1;
-    while (reg_mprj_xfer == 1);
+    //reg_mprj_xfer = 1;
+    //while (reg_mprj_xfer == 1);
 
-
+    gpio_config_io();
 
 
 	// Default value for LA[31:0] = OUTPUT
@@ -177,12 +188,11 @@ void main()
 
 
 
-
     // activate the project by setting the [project ID] bit of 2nd bank of LA
     reg_la1_iena = 0; // input enable off
     reg_la1_oenb = 0; // output enable on
     reg_la1_data = 1 << 6;
-
+ //  reg_la1_data = 0x40;  // 1st project
 
 	// Release system reset
 	logic_analyzer.reset = 0;
@@ -225,6 +235,14 @@ void main()
 	tmp_la0_data = (tmp_la0_data & ~(1<<28)) | (logic_analyzer.hack_external_reset << 28);
 	reg_la0_data = tmp_la0_data;		
 	
+
+    while (1) {
+    blink_short();
+//        reg_mprj_datal = 0x00000100;
+//        delay(5);
+//        reg_mprj_datal = 0x00000000;
+//        delay(5);
+    }
 
    
 }
